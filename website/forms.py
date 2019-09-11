@@ -1,5 +1,5 @@
 from django import forms
-from website.models import Report, News
+from website.models import Report, News, Events
 
 class ReportForm(forms.ModelForm):
 

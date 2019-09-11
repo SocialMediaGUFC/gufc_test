@@ -1,5 +1,5 @@
 from django.contrib import admin
-from website.models import Report, News
+from website.models import Report, News, Events
 
 # Register your models here.
 class NewsAdmin(admin.ModelAdmin):
