@@ -35,14 +35,11 @@
 {% endblock %}
 
 <body>
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <a class="navbar-brand" href="/">Home</a>
-        <li class="nav-item">
-            <a class="navbar-brand" href="/website/club">The Club</a>
-        </li>
+        <a class="navbar-brand" href="/website/club">The Club</a>
         <li class="nav-item dropdown">
-            <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">Teams</a>
+            <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
             <div class="dropdown-menu" aria-labelledby="dropdown03">
                 <a class="dropdown-item" href="/website/firstTeam">1s</a>
                 <a class="dropdown-item" href="/website/secondTeam">2s</a>
@@ -61,7 +58,7 @@
             </div>
         </li>
     </nav>
-    
+
     {% block body_block %}
     {% endblock %}
 
