@@ -27,7 +27,7 @@ SECRET_KEY = '4$r=53las+2xt0y5k7g1o&qb@aw3xeo7v%b=c8piu!c))qq%%v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://gufc.herokuapp.com/']
+ALLOWED_HOSTS = ['https://gufc.herokuapp.com/','localhost','127.0.0.1']
 
 
 # Application definition
