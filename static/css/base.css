@@ -230,7 +230,7 @@ pos {
 ul.nav { margin-bottom: 0 !important; }
 
 
-nav {
+nav a {
   color: white;
   background-color: black; 
   margin-bottom: -5%;
