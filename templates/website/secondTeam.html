@@ -7,9 +7,20 @@
 {% endblock %}
 
 {% block body_block %}
-<h1>Second Team</h1>
-<h2>Saturday League</h2>
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+                <p class="lead">A great starter layout for a landing page</p>
+            </div>
+        </div>
+    </div>
+    <img src="{% static 'images/Untitled design-4.jpeg' %}" width="100%" height="Full">
+</header>
 <div class="container">
+    <h1>Second Team</h1>
+    <h2>Saturday League</h2>
     <div class="col-md-12">
         <iframe src='https://www.greaterglasgow.co.uk/item.php?pg=league&pd=1049&it=155' style='' width='100%'
             height='800' title='BUCS Football' frameborder='0'>
