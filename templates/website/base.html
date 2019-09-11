@@ -34,34 +34,34 @@
 
 {% endblock %}
 
-<nav class="navbar navbar-expand-sm sticky-top">
-    <a class="navbar-brand" href="/">Home</a>
-    <li class="nav-item">
-        <a class="navbar-brand" href="/website/club">The Club</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Teams</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown03">
-            <a class="dropdown-item" href="/website/firstTeam">1s</a>
-            <a class="dropdown-item" href="/website/secondTeam">2s</a>
-            <a class="dropdown-item" href="/website/thirdTeam">3s</a>
-            <a class="dropdown-item" href="/website/underTwentyOnes">21s</a>
-        </div>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">News</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown03">
-            <a class="dropdown-item" href="/website/news">Club News</a>
-            <a class="dropdown-item" href="/website/matchReports">Match Reports</a>
-            <a class="dropdown-item" href="/website/events">Events</a>
-            <a class="dropdown-item" href="/website/add_news/">Add News</a>
-        </div>
-    </li>
-</nav>
-
 <body>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="/">Home</a>
+        <li class="nav-item">
+            <a class="navbar-brand" href="/website/club">The Club</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Teams</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="/website/firstTeam">1s</a>
+                <a class="dropdown-item" href="/website/secondTeam">2s</a>
+                <a class="dropdown-item" href="/website/thirdTeam">3s</a>
+                <a class="dropdown-item" href="/website/underTwentyOnes">21s</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="navbar-brand" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">News</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="/website/news">Club News</a>
+                <a class="dropdown-item" href="/website/matchReports">Match Reports</a>
+                <a class="dropdown-item" href="/website/events">Events</a>
+                <a class="dropdown-item" href="/website/add_news/">Add News</a>
+            </div>
+        </li>
+    </nav>
+    
     {% block body_block %}
     {% endblock %}
 
