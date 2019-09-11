@@ -233,7 +233,7 @@ pos {
 ul.nav { margin-bottom: 0 !important; }
 
 
-.navbar navbar-expand-sm sticky-top{
+.navbar {
  color: white;
  background-color: black; 
  margin-bottom: -5%;
