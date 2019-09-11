@@ -233,8 +233,8 @@ pos {
 ul.nav { margin-bottom: 0 !important; }
 
 
-.navbar navbar-expand-sm bg-dark navbar-dark fixed-top{
- color: black;
+.navbar navbar-expand-sm sticky-top{
+ color: white;
  background-color: black; 
  margin-bottom: -5%;
  padding: 0;
