@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from website.models import News, Report
+from website.models import News, Report,Events
 from website.forms import ReportForm
 
 def index(request):

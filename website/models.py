@@ -29,3 +29,14 @@ class Report(models.Model):
 
     def __str__(self):
         return self.title
+
+class Events(models.Model):
+    news_cat = models.ForeignKey(News,on_delete=models.PROTECT)
+    title = models.CharField(max_length = 128)
+    text = models.TextField()
+    views = models.IntegerField(default = 0)
+    date = models.DateField(default=datetime.date.today)
+    image = models.ImageField(upload_to = "report_images/", null = True)
+
+    def __str__(self):
+        return self.title
