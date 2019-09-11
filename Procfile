@@ -1,0 +1,1 @@
+web: gunicorn GUFCWebsite.wsgi --log-file -
