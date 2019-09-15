@@ -569,9 +569,8 @@ padding-right: 1.1rem;
 
 .mastheadIndClub {
   height: 100vh;
-  min-height: 500px;
+  min-height: 450px;
   margin-top: -3%;
-  margin-bottom: 50px;
   background-image: url( '/static/images/placeholder.jpg' ); 
   background-size: cover;
   background-position: center;
