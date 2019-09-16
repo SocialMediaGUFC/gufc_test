@@ -43,6 +43,8 @@ color: white;
 }
 
 .masthead {
+  height: 100vh;
+  min-height: 500px;
   margin-top: -3%;
   margin-bottom: 50px;
   width: 100%;
@@ -561,4 +563,14 @@ padding-right: 1.1rem;
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.mastheadIndClub {
+  height: 100vh;
+  min-height: 450px;
+  margin-top: -3%;
+  background-image: url( '/static/images/placeholder.jpg' ); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -7,11 +7,36 @@
 {% endblock %}
 
 {% block body_block %}
-<header class="masthead">
-    <img src="{% static 'images/placeholder.jpg' %}" width="100%" height="Full">
+<header class="mastheadIndClub">
 </header>
+
 <div class="container">
-    <h1>Second Team</h1>
+    <div class="row">
+        <div class="col-md-4 col-sm-4">
+            <div class="team-member">
+                <div class="team-img">
+                    <img src="{% static 'images/conor.jpg' %}" alt="team member" class="img-responsive">
+                </div>
+                <div class="team-hover">
+                    <div class="desk">
+                        <h4>2's Head Coach</h4>
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="team-title">
+                <h5>2's Head Coach</h5>
+                <span>Coach</span>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Second Teamss</h1>
     <h2>Saturday League</h2>
     <div class="col-md-12">
         <iframe src='https://www.greaterglasgow.co.uk/item.php?pg=league&pd=1049&it=155' style='' width='100%'
@@ -21,13 +46,15 @@
     </div>
 </div>
 <br>
-<h2>BUCS League</h2>
 <div class="container">
-    <div class="col-md-12">
-        <iframe src='https://bucs.playwaze.com/bucs-football/wxflulchrovm/league-embeddeddisplay/6o2z6kffymik' style=''
-            width='100%' height='800' title='BUCS Football' frameborder='0'>
-            <p> Your browser does not support iframes. </p>
-        </iframe>
+    <h2>BUCS Leagues</h2>
+    <div class="container">
+        <div class="col-md-12">
+            <iframe src='https://bucs.playwaze.com/bucs-football/wxflulchrovm/league-embeddeddisplay/6o2z6kffymik'
+                style='' width='100%' height='800' title='BUCS Football' frameborder='0'>
+                <p> Your browser does not support iframes. </p>
+            </iframe>
+        </div>
     </div>
 </div>
 
